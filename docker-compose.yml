@@ -1,0 +1,91 @@
+version: "3.8"
+x-logging:
+  &my-logging
+  options:
+    max-size: '100m'
+    max-file: '2'
+services:
+  reactjs-admin-number-dekho:
+    # deploy:
+    #     resources:
+    #         limits:
+    #           cpus: '0.50'
+    #           memory: 512M
+    #         reservations:
+    #           cpus: '0.25'
+    #           memory: 128M
+    image: $regurl/reactjs-admin-number-dekho/reactjs-admin-number-dekho:latest
+    hostname: reactjs-admin-number-dekho
+    container_name: reactjs-admin-number-dekho
+    logging: *my-logging
+    # volumes:
+    #    #- reactjs-admin-number-dekho:/wp-content/uploads //wordpress
+    #    - reactjs-admin-number-dekho:/var/www/html
+    #    - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    #    - ./wp-config.php:/var/www/html/wp-config.php
+    #    - ./.htaccess:/var/www/html/.htaccess
+    networks:
+      #- default
+      - reactjs-admin-number-dekho
+    ############Not Working#######
+    # networks:
+    #   reactjs-admin-number-dekho:
+    #     ipv4_address: "20.0.0.18"
+    ############################
+    ports:
+      - 7251:5173
+    ## aaplication .env file  
+    ##env_file: /opt/ENVIRONMENT/.env
+#######################################
+# Networks: A default used by all container using bridge
+#######################################
+#networks:
+#  reactjs-admin-number-dekho:
+#    driver: bridge
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 20.0.0.16/29
+# networks:
+#   reactjs-admin-number-dekho:
+#     driver: bridge
+#     ipam:
+#      config:
+#        - subnet: 20.0.0.16/29
+#          gateway: 20.0.0.17
+######
+networks:
+  reactjs-admin-number-dekho:
+    driver: bridge
+    ipam:
+     driver: default
+     config:
+       - subnet: 20.0.4.40/29
+         ip_range: 20.0.4.41/29
+         gateway: 20.0.4.41
+         #aux_addresses:
+           #reactjs-admin-number-dekho: 20.0.0.18
+           ##host2: 172.28.1.6
+           ##host3: 172.28.1.7
+################not working############
+# networks:
+#   reactjs-admin-number-dekho:
+#     driver: bridge
+#     ipam:
+#      config:
+#        - subnet: 20.0.0.16/29
+#        - gateway: 20.0.0.17
+################not working############
+# volumes:
+#   reactjs-admin-number-dekho:
+#       driver: local
+#       driver_opts:
+#         type: volume
+#         device: /opt/DockerHomeNAS/MediaFiles/reactjs-admin-number-dekho
+#         o: bind
+ #test:
+  #   driver: local
+  #   driver_opts:
+  #     type: volume
+  #     device: /opt/DockerHomeNAS/MediaFiles/node/src
+  #     o: bind 
