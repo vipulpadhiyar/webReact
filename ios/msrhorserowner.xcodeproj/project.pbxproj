@@ -1,0 +1,1266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* msrhorserownerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* msrhorserownerTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1746B4C77F9A4D58BAAFA2FF /* GentiumBasic-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF360CE3AA641D6B973B33D /* GentiumBasic-Bold-Italic.ttf */; };
+		2F84A97C4C5F2E5621AF18A1 /* Pods_msrhorserownerCommonPods_msrhorserowner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65732156A5A79217E9ECD0 /* Pods_msrhorserownerCommonPods_msrhorserowner.framework */; };
+		33DD83CEEFB80D875E0CDA5E /* Pods_msrhorserownerCommonPods_msrhorserownerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D3B4375A498DB056B48227 /* Pods_msrhorserownerCommonPods_msrhorserownerTests.framework */; };
+		39A0F607EF414AFBB875EE93 /* GentiumBasic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA875B1AFA849BAB2950182 /* GentiumBasic-Italic.ttf */; };
+		6020D2E62C0047ECA0A48C45 /* GentiumBasic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DD042A1249F19ECF97B7 /* GentiumBasic-Regular.ttf */; };
+		70C5C4A323EF485781071F8C /* GentiumBasic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7159711A974A5585AFE669 /* GentiumBasic-Bold.ttf */; };
+		72AEBED32BEA3731005A66CA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		72AEBED42BEA3731005A66CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		72AEBED82BEA3731005A66CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		72AEBED92BEA3731005A66CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		72AEBEDA2BEA3731005A66CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1EF96F231D9CED2DF8347A2B /* PrivacyInfo.xcprivacy */; };
+		72AEBEE62BEA3732005A66CA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		72AEBEE72BEA3732005A66CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		72AEBEEB2BEA3732005A66CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		72AEBEEC2BEA3732005A66CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		72AEBEED2BEA3732005A66CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1EF96F231D9CED2DF8347A2B /* PrivacyInfo.xcprivacy */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9C27F13511BCF050D0DCF0FF /* Pods_msrhorserownerCommonPods_msrhorserownerDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF074E7D17E86976E7FF0C35 /* Pods_msrhorserownerCommonPods_msrhorserownerDev.framework */; };
+		BD9F635E2C58E70C0076C054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9F635D2C58E70C0076C054 /* GoogleService-Info.plist */; };
+		BD9F635F2C58E70C0076C054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9F635D2C58E70C0076C054 /* GoogleService-Info.plist */; };
+		BD9F63602C58E70C0076C054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9F635D2C58E70C0076C054 /* GoogleService-Info.plist */; };
+		D00612FEA3CC6C7D6139750D /* Pods_msrhorserownerCommonPods_msrhorserownerStag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5EFBDE1EF02BDB18F2675E /* Pods_msrhorserownerCommonPods_msrhorserownerStag.framework */; };
+		E0BD2ADB2504E85E11169C5B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1EF96F231D9CED2DF8347A2B /* PrivacyInfo.xcprivacy */; };
+		F4ED8E692C33F16B00514225 /* GentiumBasic-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF360CE3AA641D6B973B33D /* GentiumBasic-Bold-Italic.ttf */; };
+		F4ED8E6A2C33F16B00514225 /* GentiumBasic-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF360CE3AA641D6B973B33D /* GentiumBasic-Bold-Italic.ttf */; };
+		F4ED8E6B2C33F16E00514225 /* GentiumBasic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7159711A974A5585AFE669 /* GentiumBasic-Bold.ttf */; };
+		F4ED8E6C2C33F16F00514225 /* GentiumBasic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7159711A974A5585AFE669 /* GentiumBasic-Bold.ttf */; };
+		F4ED8E6D2C33F17300514225 /* GentiumBasic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA875B1AFA849BAB2950182 /* GentiumBasic-Italic.ttf */; };
+		F4ED8E6E2C33F17300514225 /* GentiumBasic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA875B1AFA849BAB2950182 /* GentiumBasic-Italic.ttf */; };
+		F4ED8E6F2C33F17600514225 /* GentiumBasic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DD042A1249F19ECF97B7 /* GentiumBasic-Regular.ttf */; };
+		F4ED8E702C33F17B00514225 /* GentiumBasic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DD042A1249F19ECF97B7 /* GentiumBasic-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = msrhorserowner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* msrhorserownerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = msrhorserownerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* msrhorserownerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msrhorserownerTests.m; sourceTree = "<group>"; };
+		0F41240AB8E3EBF66B6774FF /* Pods-msrhorserownerCommonPods-msrhorserowner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserowner.release.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* msrhorserowner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = msrhorserowner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = msrhorserowner/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = msrhorserowner/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = msrhorserowner/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = msrhorserowner/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = msrhorserowner/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = msrhorserowner/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		14432A1C1438F3601E4710FE /* Pods-msrhorserownerCommonPods-msrhorserownerStag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerStag.release.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag.release.xcconfig"; sourceTree = "<group>"; };
+		17141CB18363EF08614431B4 /* Pods-msrhorserownerCommonPods-msrhorserownerStag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerStag.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF96F231D9CED2DF8347A2B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = msrhorserowner/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		35F1DD042A1249F19ECF97B7 /* GentiumBasic-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBasic-Regular.ttf"; path = "../src/assets/fonts/GentiumBasic-Regular.ttf"; sourceTree = "<group>"; };
+		3A65732156A5A79217E9ECD0 /* Pods_msrhorserownerCommonPods_msrhorserowner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msrhorserownerCommonPods_msrhorserowner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-msrhorserowner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserowner.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserowner/Pods-msrhorserowner.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7159711A974A5585AFE669 /* GentiumBasic-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBasic-Bold.ttf"; path = "../src/assets/fonts/GentiumBasic-Bold.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-msrhorserowner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserowner.release.xcconfig"; path = "Target Support Files/Pods-msrhorserowner/Pods-msrhorserowner.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-msrhorserowner-msrhorserownerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserowner-msrhorserownerTests.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserowner-msrhorserownerTests/Pods-msrhorserowner-msrhorserownerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEC06190FD3C649289C75AB /* Pods-msrhorserownerCommonPods-msrhorserownerDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerDev.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEBFCE54392AC6845D0FF91 /* Pods-msrhorserownerCommonPods-msrhorserowner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserowner.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner.debug.xcconfig"; sourceTree = "<group>"; };
+		72AEBEE12BEA3731005A66CA /* msrhorserownerDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = msrhorserownerDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AEBEF42BEA3732005A66CA /* msrhorserownerStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = msrhorserownerStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AEBEF62BEA3832005A66CA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = msrhorserowner/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-msrhorserowner-msrhorserownerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserowner-msrhorserownerTests.release.xcconfig"; path = "Target Support Files/Pods-msrhorserowner-msrhorserownerTests/Pods-msrhorserowner-msrhorserownerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BD602B3B85B97F01B74ED45 /* Pods-msrhorserownerCommonPods-msrhorserownerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerTests.debug.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF360CE3AA641D6B973B33D /* GentiumBasic-Bold-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBasic-Bold-Italic.ttf"; path = "../src/assets/fonts/GentiumBasic-Bold-Italic.ttf"; sourceTree = "<group>"; };
+		BD3443762C57D6C9008B2DB2 /* msrhorserownerDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msrhorserownerDev.entitlements; sourceTree = "<group>"; };
+		BD9F635A2C58E20C0076C054 /* msrhorserownerDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msrhorserownerDev.entitlements; sourceTree = "<group>"; };
+		BD9F635B2C58E2120076C054 /* msrhorserownerStag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = msrhorserownerStag.entitlements; sourceTree = "<group>"; };
+		BD9F635C2C58E2170076C054 /* msrhorserowner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = msrhorserowner.entitlements; path = msrhorserowner/msrhorserowner.entitlements; sourceTree = "<group>"; };
+		BD9F635D2C58E70C0076C054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDA875B1AFA849BAB2950182 /* GentiumBasic-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBasic-Italic.ttf"; path = "../src/assets/fonts/GentiumBasic-Italic.ttf"; sourceTree = "<group>"; };
+		CC5648F27CD6EB113779CC0E /* Pods-msrhorserownerCommonPods-msrhorserownerDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerDev.release.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev.release.xcconfig"; sourceTree = "<group>"; };
+		E37ADAA60C3383FE98F689ED /* Pods-msrhorserownerCommonPods-msrhorserownerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msrhorserownerCommonPods-msrhorserownerTests.release.xcconfig"; path = "Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF074E7D17E86976E7FF0C35 /* Pods_msrhorserownerCommonPods_msrhorserownerDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msrhorserownerCommonPods_msrhorserownerDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D3B4375A498DB056B48227 /* Pods_msrhorserownerCommonPods_msrhorserownerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msrhorserownerCommonPods_msrhorserownerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5EFBDE1EF02BDB18F2675E /* Pods_msrhorserownerCommonPods_msrhorserownerStag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msrhorserownerCommonPods_msrhorserownerStag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DD83CEEFB80D875E0CDA5E /* Pods_msrhorserownerCommonPods_msrhorserownerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F84A97C4C5F2E5621AF18A1 /* Pods_msrhorserownerCommonPods_msrhorserowner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBED52BEA3731005A66CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C27F13511BCF050D0DCF0FF /* Pods_msrhorserownerCommonPods_msrhorserownerDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBEE82BEA3732005A66CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00612FEA3CC6C7D6139750D /* Pods_msrhorserownerCommonPods_msrhorserownerStag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* msrhorserownerTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* msrhorserownerTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = msrhorserownerTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* msrhorserowner */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F635D2C58E70C0076C054 /* GoogleService-Info.plist */,
+				BD9F635C2C58E2170076C054 /* msrhorserowner.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				1EF96F231D9CED2DF8347A2B /* PrivacyInfo.xcprivacy */,
+			);
+			name = msrhorserowner;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				3A65732156A5A79217E9ECD0 /* Pods_msrhorserownerCommonPods_msrhorserowner.framework */,
+				EF074E7D17E86976E7FF0C35 /* Pods_msrhorserownerCommonPods_msrhorserownerDev.framework */,
+				FB5EFBDE1EF02BDB18F2675E /* Pods_msrhorserownerCommonPods_msrhorserownerStag.framework */,
+				F4D3B4375A498DB056B48227 /* Pods_msrhorserownerCommonPods_msrhorserownerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				BD9F635B2C58E2120076C054 /* msrhorserownerStag.entitlements */,
+				BD9F635A2C58E20C0076C054 /* msrhorserownerDev.entitlements */,
+				BD3443762C57D6C9008B2DB2 /* msrhorserownerDev.entitlements */,
+				72AEBEF62BEA3832005A66CA /* Config.xcconfig */,
+				13B07FAE1A68108700A75B9A /* msrhorserowner */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* msrhorserownerTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D5EF75EA98BF417FB0621993 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* msrhorserowner.app */,
+				00E356EE1AD99517003FC87E /* msrhorserownerTests.xctest */,
+				72AEBEE12BEA3731005A66CA /* msrhorserownerDev.app */,
+				72AEBEF42BEA3732005A66CA /* msrhorserownerStag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-msrhorserowner.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-msrhorserowner.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-msrhorserowner-msrhorserownerTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-msrhorserowner-msrhorserownerTests.release.xcconfig */,
+				6EEBFCE54392AC6845D0FF91 /* Pods-msrhorserownerCommonPods-msrhorserowner.debug.xcconfig */,
+				0F41240AB8E3EBF66B6774FF /* Pods-msrhorserownerCommonPods-msrhorserowner.release.xcconfig */,
+				5EEC06190FD3C649289C75AB /* Pods-msrhorserownerCommonPods-msrhorserownerDev.debug.xcconfig */,
+				CC5648F27CD6EB113779CC0E /* Pods-msrhorserownerCommonPods-msrhorserownerDev.release.xcconfig */,
+				17141CB18363EF08614431B4 /* Pods-msrhorserownerCommonPods-msrhorserownerStag.debug.xcconfig */,
+				14432A1C1438F3601E4710FE /* Pods-msrhorserownerCommonPods-msrhorserownerStag.release.xcconfig */,
+				8BD602B3B85B97F01B74ED45 /* Pods-msrhorserownerCommonPods-msrhorserownerTests.debug.xcconfig */,
+				E37ADAA60C3383FE98F689ED /* Pods-msrhorserownerCommonPods-msrhorserownerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5EF75EA98BF417FB0621993 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CF360CE3AA641D6B973B33D /* GentiumBasic-Bold-Italic.ttf */,
+				3B7159711A974A5585AFE669 /* GentiumBasic-Bold.ttf */,
+				BDA875B1AFA849BAB2950182 /* GentiumBasic-Italic.ttf */,
+				35F1DD042A1249F19ECF97B7 /* GentiumBasic-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* msrhorserownerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "msrhorserownerTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = msrhorserownerTests;
+			productName = msrhorserownerTests;
+			productReference = 00E356EE1AD99517003FC87E /* msrhorserownerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* msrhorserowner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "msrhorserowner" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = msrhorserowner;
+			productName = msrhorserowner;
+			productReference = 13B07F961A680F5B00A75B9A /* msrhorserowner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AEBED02BEA3731005A66CA /* msrhorserownerDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AEBEDE2BEA3731005A66CA /* Build configuration list for PBXNativeTarget "msrhorserownerDev" */;
+			buildPhases = (
+				72AEBED12BEA3731005A66CA /* [CP] Check Pods Manifest.lock */,
+				72AEBED22BEA3731005A66CA /* Sources */,
+				72AEBED52BEA3731005A66CA /* Frameworks */,
+				72AEBED72BEA3731005A66CA /* Resources */,
+				72AEBEDB2BEA3731005A66CA /* Bundle React Native code and images */,
+				72AEBEDC2BEA3731005A66CA /* [CP] Embed Pods Frameworks */,
+				72AEBEDD2BEA3731005A66CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = msrhorserownerDev;
+			productName = msrhorserowner;
+			productReference = 72AEBEE12BEA3731005A66CA /* msrhorserownerDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AEBEE32BEA3732005A66CA /* msrhorserownerStag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AEBEF12BEA3732005A66CA /* Build configuration list for PBXNativeTarget "msrhorserownerStag" */;
+			buildPhases = (
+				72AEBEE42BEA3732005A66CA /* [CP] Check Pods Manifest.lock */,
+				72AEBEE52BEA3732005A66CA /* Sources */,
+				72AEBEE82BEA3732005A66CA /* Frameworks */,
+				72AEBEEA2BEA3732005A66CA /* Resources */,
+				72AEBEEE2BEA3732005A66CA /* Bundle React Native code and images */,
+				72AEBEEF2BEA3732005A66CA /* [CP] Embed Pods Frameworks */,
+				72AEBEF02BEA3732005A66CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = msrhorserownerStag;
+			productName = msrhorserowner;
+			productReference = 72AEBEF42BEA3732005A66CA /* msrhorserownerStag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "msrhorserowner" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* msrhorserowner */,
+				00E356ED1AD99517003FC87E /* msrhorserownerTests */,
+				72AEBED02BEA3731005A66CA /* msrhorserownerDev */,
+				72AEBEE32BEA3732005A66CA /* msrhorserownerStag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				BD9F635E2C58E70C0076C054 /* GoogleService-Info.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E0BD2ADB2504E85E11169C5B /* PrivacyInfo.xcprivacy in Resources */,
+				1746B4C77F9A4D58BAAFA2FF /* GentiumBasic-Bold-Italic.ttf in Resources */,
+				70C5C4A323EF485781071F8C /* GentiumBasic-Bold.ttf in Resources */,
+				39A0F607EF414AFBB875EE93 /* GentiumBasic-Italic.ttf in Resources */,
+				6020D2E62C0047ECA0A48C45 /* GentiumBasic-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBED72BEA3731005A66CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ED8E6B2C33F16E00514225 /* GentiumBasic-Bold.ttf in Resources */,
+				BD9F635F2C58E70C0076C054 /* GoogleService-Info.plist in Resources */,
+				F4ED8E702C33F17B00514225 /* GentiumBasic-Regular.ttf in Resources */,
+				F4ED8E692C33F16B00514225 /* GentiumBasic-Bold-Italic.ttf in Resources */,
+				72AEBED82BEA3731005A66CA /* LaunchScreen.storyboard in Resources */,
+				72AEBED92BEA3731005A66CA /* Images.xcassets in Resources */,
+				72AEBEDA2BEA3731005A66CA /* PrivacyInfo.xcprivacy in Resources */,
+				F4ED8E6D2C33F17300514225 /* GentiumBasic-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBEEA2BEA3732005A66CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ED8E6C2C33F16F00514225 /* GentiumBasic-Bold.ttf in Resources */,
+				BD9F63602C58E70C0076C054 /* GoogleService-Info.plist in Resources */,
+				F4ED8E6F2C33F17600514225 /* GentiumBasic-Regular.ttf in Resources */,
+				F4ED8E6A2C33F16B00514225 /* GentiumBasic-Bold-Italic.ttf in Resources */,
+				72AEBEEB2BEA3732005A66CA /* LaunchScreen.storyboard in Resources */,
+				72AEBEEC2BEA3732005A66CA /* Images.xcassets in Resources */,
+				72AEBEED2BEA3732005A66CA /* PrivacyInfo.xcprivacy in Resources */,
+				F4ED8E6E2C33F17300514225 /* GentiumBasic-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBED12BEA3731005A66CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msrhorserownerCommonPods-msrhorserownerDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBEDB2BEA3731005A66CA /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		72AEBEDC2BEA3731005A66CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBEDD2BEA3731005A66CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerDev/Pods-msrhorserownerCommonPods-msrhorserownerDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBEE42BEA3732005A66CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msrhorserownerCommonPods-msrhorserownerStag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBEEE2BEA3732005A66CA /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		72AEBEEF2BEA3732005A66CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AEBEF02BEA3732005A66CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerStag/Pods-msrhorserownerCommonPods-msrhorserownerStag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msrhorserownerCommonPods-msrhorserownerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msrhorserownerCommonPods-msrhorserowner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserowner/Pods-msrhorserownerCommonPods-msrhorserowner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-msrhorserownerCommonPods-msrhorserownerTests/Pods-msrhorserownerCommonPods-msrhorserownerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* msrhorserownerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBED22BEA3731005A66CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AEBED32BEA3731005A66CA /* AppDelegate.mm in Sources */,
+				72AEBED42BEA3731005A66CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AEBEE52BEA3732005A66CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AEBEE62BEA3732005A66CA /* AppDelegate.mm in Sources */,
+				72AEBEE72BEA3732005A66CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* msrhorserowner */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD602B3B85B97F01B74ED45 /* Pods-msrhorserownerCommonPods-msrhorserownerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = msrhorserownerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/msrhorserowner.app/msrhorserowner";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37ADAA60C3383FE98F689ED /* Pods-msrhorserownerCommonPods-msrhorserownerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = msrhorserownerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/msrhorserowner.app/msrhorserowner";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEBFCE54392AC6845D0FF91 /* Pods-msrhorserownerCommonPods-msrhorserowner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserowner/msrhorserowner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = msrhorserowner;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F41240AB8E3EBF66B6774FF /* Pods-msrhorserownerCommonPods-msrhorserowner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserowner/msrhorserowner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = msrhorserowner;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		72AEBEDF2BEA3731005A66CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEC06190FD3C649289C75AB /* Pods-msrhorserownerCommonPods-msrhorserownerDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserownerDev.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.13;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		72AEBEE02BEA3731005A66CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5648F27CD6EB113779CC0E /* Pods-msrhorserownerCommonPods-msrhorserownerDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserownerDev.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.13;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		72AEBEF22BEA3732005A66CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17141CB18363EF08614431B4 /* Pods-msrhorserownerCommonPods-msrhorserownerStag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserownerStag.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		72AEBEF32BEA3732005A66CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14432A1C1438F3601E4710FE /* Pods-msrhorserownerCommonPods-msrhorserownerStag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = msrhorserownerStag.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 956L4JT6K6;
+				INFOPLIST_FILE = msrhorserowner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MSR Horse Owner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manestreetrideshare.horseowner;
+				PRODUCT_MODULE_NAME = "MSR Horse Owner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AEBEF62BEA3832005A66CA /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AEBEF62BEA3832005A66CA /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "msrhorserownerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "msrhorserowner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AEBEDE2BEA3731005A66CA /* Build configuration list for PBXNativeTarget "msrhorserownerDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AEBEDF2BEA3731005A66CA /* Debug */,
+				72AEBEE02BEA3731005A66CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AEBEF12BEA3732005A66CA /* Build configuration list for PBXNativeTarget "msrhorserownerStag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AEBEF22BEA3732005A66CA /* Debug */,
+				72AEBEF32BEA3732005A66CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "msrhorserowner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

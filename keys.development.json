@@ -1,0 +1,14 @@
+{
+  "secure": {
+    "base_url": "https://node-msr.agiletechnologies.in/",
+    "media_url": "https://d12u0w1mfb9464.cloudfront.net/media/",
+    "storage_id": "msr-ho-id",
+    "storage_key": "msr-ho-key",
+    "encryption_on": "false",
+    "encryption_password": "<your_password>"
+  },
+  "public": {
+    "env": "DEVELOPMENT",
+    "map_api_key": "AIzaSyD8n18TWQCyWxKo3mwc3U0xRTzDkTd7OEw"
+  }
+}

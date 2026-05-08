@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/GentiumBasic-Bold-Italic.ttf",
+      "sha1": "3023d44dd50bca9f09ff52dbce0dcf378b2e0928"
+    },
+    {
+      "path": "src/assets/fonts/GentiumBasic-Bold.ttf",
+      "sha1": "32866d9abbb8dff9471c3ef5dc3f262031141c6f"
+    },
+    {
+      "path": "src/assets/fonts/GentiumBasic-Italic.ttf",
+      "sha1": "985de2f56d9a119609c01afbd655f39a39977407"
+    },
+    {
+      "path": "src/assets/fonts/GentiumBasic-Regular.ttf",
+      "sha1": "c6da24860794b1eccf16af56d972da174e870a3e"
+    }
+  ]
+}

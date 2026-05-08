@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./src", // all paths are relative to the baseUrl
+    "paths": {
+      "~/*": ["*"] // resolve any `~/foo/bar` to `<baseUrl>/foo/bar`
+    }
+  },
+  "exclude": ["__tests__/**/*-test.ts", "coverage/"]
+}

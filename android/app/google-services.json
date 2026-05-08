@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616154508640",
+    "project_id": "mane-street-rideshare",
+    "storage_bucket": "mane-street-rideshare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616154508640:android:6f5be864f5ecb34ad84205",
+        "android_client_info": {
+          "package_name": "com.manestreetrideshare.horseowner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVU1j0jL35cOEfT6bqU0S6lw0qATFJKDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
