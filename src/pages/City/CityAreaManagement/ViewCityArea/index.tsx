@@ -12,61 +12,61 @@ import { ROUTES } from 'utils/constants/routes';
 import { replaceAndCapitalize, toAbsoluteUrl } from 'utils/functions';
 
 const pathNames: any = [
-  {
-    title: 'City Area Management',
-    href: ROUTES.cityAreaManagement
-  },
-  {
-    title: 'View'
-  }
+    {
+        title: 'City Area Management',
+        href: ROUTES.cityAreaManagement,
+    },
+    {
+        title: 'View',
+    },
 ];
 
 const ViewCityArea = () => {
-  const navigate = useNavigate();
-  const { _id } = useParams();
-  const { data } = useCityAreaView(_id);
-  return (
-    <Wrapper className="ViewPage">
-      <div className="shadow-paper">
-        <ContentHeader pathNames={pathNames} />
+    const navigate = useNavigate();
+    const { _id } = useParams();
+    const { data } = useCityAreaView(_id);
+    return (
+        <Wrapper className="ViewPage">
+            <div className="shadow-paper">
+                <ContentHeader pathNames={pathNames} />
 
-        <div className="d-flex justify-content-end mb-30 ">
-          <Button type="primary" size="large" onClick={() => navigate(ROUTES.cityAreaManagement)}>
-            Back
-          </Button>
-        </div>
-        <div className="viewWrap">
-          <div className="left">Image</div>
-          <div className="right">
-            <picture>
-              <img
-                src={
-                  data?.image
-                    ? `${VITE_REACT_APP_IMAGE_URL}${uploadImageEnum.city}/${data?.image}`
-                    : toAbsoluteUrl('/asset/dummy.png')
-                }
-                alt="dummy"
-              />
-            </picture>
-          </div>
-        </div>
-        <div className="viewWrap">
-          <div className="left">City Area Name</div>
-          <div className="right">{data && replaceAndCapitalize(data?.cityAreaName)}</div>
-        </div>
-        {data?.cityName && (
-          <div className="viewWrap">
-            <div className="left">City Name</div>
-            <div className="right"> {replaceAndCapitalize(data?.cityName)}</div>
-          </div>
-        )}
-        {data?.cityAreaDesc && (
-          <div className="viewWrap">
-            <div className="left">About Area</div>
-            <div className="right" dangerouslySetInnerHTML={{ __html: data?.cityAreaDesc }} />
-          </div>
-        )}
-        {/* <h3 className="faq-title">Faq</h3>
+                <div className="d-flex justify-content-end mb-30 ">
+                    <Button type="primary" size="large" onClick={() => navigate(ROUTES.cityAreaManagement)}>
+                        Back
+                    </Button>
+                </div>
+                <div className="viewWrap">
+                    <div className="left">Image</div>
+                    <div className="right">
+                        <picture>
+                            <img
+                                src={
+                                    data?.image
+                                        ? `${VITE_REACT_APP_IMAGE_URL}${uploadImageEnum.city}/${data.image}`
+                                        : toAbsoluteUrl('/asset/dummy.png')
+                                }
+                                alt="dummy"
+                            />
+                        </picture>
+                    </div>
+                </div>
+                <div className="viewWrap">
+                    <div className="left">City Area Name</div>
+                    <div className="right">{data && replaceAndCapitalize(data.cityAreaName)}</div>
+                </div>
+                {data?.cityName && (
+                    <div className="viewWrap">
+                        <div className="left">City Name</div>
+                        <div className="right"> {replaceAndCapitalize(data.cityName)}</div>
+                    </div>
+                )}
+                {data?.cityAreaDesc && (
+                    <div className="viewWrap">
+                        <div className="left">About Area</div>
+                        <div className="right" dangerouslySetInnerHTML={{ __html: data?.cityAreaDesc }} />
+                    </div>
+                )}
+                {/* <h3 className="faq-title">Faq</h3>
         {data?.faq &&
           data?.faq.length > 0 &&
           data?.faq?.map((item: faqList) => {
@@ -77,9 +77,9 @@ const ViewCityArea = () => {
               </div>
             );
           })} */}
-      </div>
-    </Wrapper>
-  );
+            </div>
+        </Wrapper>
+    );
 };
 
 export default ViewCityArea;
