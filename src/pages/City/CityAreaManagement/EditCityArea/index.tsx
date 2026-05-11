@@ -2,7 +2,7 @@ import { commonStyles } from 'components/common/UploadImage/styles';
 
 import { useQueryClient } from '@tanstack/react-query';
 import { Button, Col, Form, Row, message } from 'antd';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 import { RenderCkEditor, RenderSelectInput, RenderTextInput } from 'components/common/FormField';
