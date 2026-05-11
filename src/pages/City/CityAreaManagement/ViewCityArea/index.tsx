@@ -10,6 +10,7 @@ import { useCityAreaView } from 'services/hooks/cityArea';
 import { VITE_REACT_APP_IMAGE_URL, uploadImageEnum } from 'utils/constants';
 import { ROUTES } from 'utils/constants/routes';
 import { replaceAndCapitalize, toAbsoluteUrl } from 'utils/functions';
+import axios from 'axios';
 
 const pathNames: any = [
     {
@@ -26,6 +27,11 @@ const ViewCityArea = () => {
     const { _id } = useParams();
     const { data } = useCityAreaView(_id);
 
+    const loadUsers = async () => {
+        const response = await axios.get('/users');
+        return response.data;
+    };
+
     const fetchUserProfile = async (userId: '123') => {
         const response = await fetch(`https://api.test.com/users/${userId}`);
 
@@ -33,7 +39,7 @@ const ViewCityArea = () => {
 
         return data;
     };
-    console.log('fetchUserProfile', fetchUserProfile);
+    console.log('fetchUserProfile', fetchUserProfile, loadUsers);
     return (
         <Wrapper className="ViewPage">
             <div className="shadow-paper">
