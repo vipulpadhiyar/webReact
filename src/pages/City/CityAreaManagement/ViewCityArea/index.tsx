@@ -25,6 +25,15 @@ const ViewCityArea = () => {
     const navigate = useNavigate();
     const { _id } = useParams();
     const { data } = useCityAreaView(_id);
+
+    const fetchUserProfile = async (userId: '123') => {
+        const response = await fetch(`https://api.test.com/users/${userId}`);
+
+        const data = await response.json();
+
+        return data;
+    };
+    console.log('fetchUserProfile', fetchUserProfile);
     return (
         <Wrapper className="ViewPage">
             <div className="shadow-paper">
