@@ -1,7 +1,7 @@
 import { Wrapper } from './style';
 
 import { Button } from 'antd';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, ActionFunction } from 'react-router-dom';
 
 import ContentHeader from 'components/layout/contentHeader';
 
